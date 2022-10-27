@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block addcss %}
+    <link rel="stylesheet" href="{% static 'actions_basic/css/form.css' %}">
+{% endblock %}
+
+{% block content %}
+    <form method="POST">
+        {% csrf_token %}
+        <div class="form-control">
+            <table>{{form.as_table}}</table>
+        </div>
+        <br>
+        <input type="submit" value="Enviar" class="btn btn-success" id="btn-form">
+    </form>
+{% endblock %}

@@ -1,0 +1,22 @@
+body {
+    color: white;
+}
+
+.produto_list {
+    font-size: larger;
+}
+
+table{
+    border-collapse: collapse;
+    width: 900px;
+}
+
+td {
+    border: 2px solid black;
+    padding: 5px;
+}
+
+#botao_produto {
+    padding: 10px;
+    margin-bottom: 20px;
+}

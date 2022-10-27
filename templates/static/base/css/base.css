@@ -1,0 +1,18 @@
+body {
+    background-color: rgb(79, 100, 161);
+}
+
+#navbar-title {
+    font-weight: bold;
+}
+
+.navbar-nav {
+    text-decoration: underline;
+}
+
+#item_list:hover{
+    font-weight: bolder;
+    background-color: gray;
+    border-radius: 15px;
+    color: white;
+}
